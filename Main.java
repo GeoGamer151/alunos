@@ -31,7 +31,7 @@ public class Main {
         } else if (media >= MEDIA_RECUPERACAO) {
             return "Recuperação";
         } else {
-            return "Reprovado";
+            return "Reprovado,tente novamente no proximo semestre!";
         }
     }
 
